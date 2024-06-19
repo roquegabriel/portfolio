@@ -11,4 +11,7 @@
   body {
     @apply font-raleway;
   }
+  li{
+    @apply px-4 cursor-pointer
+  }
 }
