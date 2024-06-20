@@ -4,9 +4,9 @@ import { HiArrowNarrowRight } from 'react-icons/hi'
 
 const Home = () => {
   return (
-    <div name="home" className='bg-[#0a192f] w-full h-screen'>
+    <div name="home" className='bg-midnight w-full h-screen'>
       <div className='max-w-[1000px] h-full mx-auto flex flex-col justify-center px-8'>
-        <p className='text-pink-600'>Hi there, my name is</p>
+        <p className='text-pink-600 font-bold'>Hi there, my name is</p>
         <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>Roque Pérez</h1>
         <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>I'm a Full Stack Developer</h2>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>I'm a full stack developer with a passion for building intuitive and robust web solutions. Let's bring your vision to life with cutting-edge technology and innovative design.</p>
