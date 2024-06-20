@@ -9,6 +9,9 @@ export default {
       fontFamily:{
         raleway:['raleway']
       },
+      colors : {
+        midnight : '#0a192f'
+      },
     },
   },
   plugins: [],
