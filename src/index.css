@@ -7,25 +7,25 @@
   src: url(./assets/fonts/Raleway/Raleway-VariableFont_wght.ttf);
 }
 
-@layer base{
+@layer base {
   body {
     @apply font-raleway;
   }
-  li{
+
+  li {
     @apply px-4 cursor-pointer
   }
 }
 
-.content-div{
+.content-div {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 250px;
 }
-.content-div:hover{
-  background-image: linear-gradient(
-    to right,
-    rgba(112,157,255,0.8),
-    hsla(242,74%,61%, 0.8)
-  );
+
+.content-div:hover {
+  background-image: linear-gradient(to right,
+      rgba(112, 157, 255, 0.8),
+      hsla(242, 74%, 61%, 0.8));
 }
