@@ -17,6 +17,12 @@
   }
 }
 
+@layer components {
+  .active {
+    @apply border-b border-pink-600 
+  }
+}
+
 .content-div {
   background-repeat: no-repeat;
   background-size: cover;
