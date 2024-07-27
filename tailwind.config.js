@@ -10,7 +10,9 @@ export default {
         raleway:['raleway']
       },
       colors : {
-        midnight : '#0a192f'
+        midnight : '#0a192f',
+        fog: '#ccd6f6',
+        lightslategray:'#8892b0'
       },
     },
   },
